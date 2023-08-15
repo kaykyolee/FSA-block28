@@ -9,14 +9,7 @@ body > div {
   width: 100vw;
 }
 
-footer{
-  display:inline;
-  position:fixed;
-  bottom:0;
-  left:0;
-  right:0;
-  text-align:right;
-}
+
 
 #container {
   height: 100%;
@@ -47,14 +40,55 @@ footer{
 .home {
   background-color: #af5fb0;
   color: white;
+  width: 100%;
+  height:25em;
+  justify-content: center;
 }
 
 .red {
   background-color: #b05f6d;
   color: white;
+  width: 100%;
+  height:25em;
 }
 
 .blue {
   background-color: #275db3;
   color: white;
+  width: 100%;
+  height:25em;
+}
+
+.yellow{
+  background-color: #a7b327;
+  color: white;
+  width: 100%;
+  height:25em;
+
+}
+
+.navbar{
+  background-color: rgb(188, 218, 244);
+
+}
+
+.navbar a{  
+  display:inline-block;
+  padding: 0 0 0 2em;  
+  margin-top: 1em;
+  margin-bottom:1em;
+}
+
+
+.footer{
+  background-color: rgb(188, 218, 244);
+  position:fixed;
+  width:100%;
+}
+.footer a{
+  display:inline-block;
+  margin-top: 1em;
+  margin-bottom:1em;
+  padding: 0 0 0 2em;  
+  text-align:end;
 }
